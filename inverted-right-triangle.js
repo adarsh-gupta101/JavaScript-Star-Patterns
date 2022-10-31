@@ -5,5 +5,11 @@ for (let  i = 5; i > 0; i -= 1) {
         pattern += "*";
     }
 
-    console.log(pattern);
+    let spaces = "";
+
+    for (let j = 5; j >= 1; j += 1) {
+        spaces += " ";
+    }
+
+    console.log(spaces + pattern);
 }
